@@ -1,0 +1,92 @@
+/* HEADER */
+
+site-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#020617;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#3b82f6;
+}
+
+<!-- MENU CSS **********************************************
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#e5e7eb;
+}
+
+nav a:hover{
+color:#3b82f6;
+}
+
+-->
+
+/* MAIN MENU CSS NEW *****************************************/
+/* Main menu */
+
+.menu{
+  list-style:none;
+  display:flex;
+  margin:0;
+  padding:0;
+}
+
+.menu li{
+  position:relative;
+  margin-left:25px;
+}
+
+.menu a{
+  text-decoration:none;
+  font-family:Arial;
+  color:#e5e7eb; /*222*/
+  padding:8px 10px;
+  display:block;
+}
+
+.menu a:hover{
+  color:#0077cc;
+}
+
+/* Submenu */
+
+.submenu{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:white;
+  list-style:none;
+  padding:0;
+  margin:0;
+  min-width:180px;
+  border:1px solid #ddd;
+}
+
+/* Submenu items */
+
+.submenu li{
+  margin:0;
+}
+
+.submenu a{
+  padding:10px 15px;
+  color:#333;
+}
+
+.submenu a:hover{
+  background:#f0f0f0;
+}
+
+/* Show dropdown */
+
+.dropdown:hover .submenu{
+  display:block;
+}
+/* MAIN MENU CSS UP TO HERE*******/
